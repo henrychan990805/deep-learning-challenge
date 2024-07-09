@@ -1,7 +1,7 @@
 # deep-learning-challenge
 ## Overview
-This analysis is aimed to create and train a deep-learning model that can help Alphabet Soup select the applicants with the best chance of success in their venture. The libraries that are mainly used are Sklearn, Pandas, and Tensorflow. The database that are provided can be find and download from
-"https://static.bc-edx.com/data/dl-1-2/m21/lms/starter/charity_data.csv". In the analysis, the model are optimized multiple times. Different versions of the model are saved as HDF5 files.
+This analysis aims to create and train a deep-learning model that can help Alphabet Soup select the applicants with the best chance of success in their venture. The libraries that are mainly used are Sklearn, Pandas, and Tensorflow. The data that are provided can be found and downloaded from
+"https://static.bc-edx.com/data/dl-1-2/m21/lms/starter/charity_data.csv". In the analysis, the models are optimized multiple times. Different versions of the model are saved as HDF5 files.
 ## Results
 ![Data_Overview](https://github.com/henrychan990805/deep-learning-challenge/blob/c00672fa5de465ac01558c9fce85faa2cd84b804/ScreenShots/Data_Overview.png)
 ### Data Processing
@@ -191,4 +191,6 @@ This analysis is aimed to create and train a deep-learning model that can help A
 ![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(6)_evaluation.png)
 * The model does not achieve the model performance.
 <br><br>
-  
+## Summary
+The overall result of the models and optimization does not achieve the desired performance. Hence, the model is not yet adequate for the task of making predictions. In order to achieve the desirable performance, more optimizations might be needed. For instance, try other activation functions, even though relu might be the optimal function in many other instances.
+Also, the model stucture could be optimized to get a better accuracy. Also, including other data that can be used as features for the model could inprove the preformance of the model. In conclusion, despite multiple optimization, the models that are created and trained do not meet the target model performance.
