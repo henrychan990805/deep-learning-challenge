@@ -3,7 +3,7 @@
 This analysis aims to create and train a deep-learning model that can help Alphabet Soup select the applicants with the best chance of success in their venture. The libraries that are mainly used are Sklearn, Pandas, and Tensorflow. The data that are provided can be found and downloaded from
 "https://static.bc-edx.com/data/dl-1-2/m21/lms/starter/charity_data.csv". In the analysis, the models are optimized multiple times. Different versions of the model are saved as HDF5 files.
 ## Results
-![Data_Overview](https://github.com/henrychan990805/deep-learning-challenge/blob/c00672fa5de465ac01558c9fce85faa2cd84b804/ScreenShots/Data_Overview.png)
+![Data_Overview](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Data_Overview.png)
 ### Data Processing
 * Targets of the model <br>
   "IS_SUCCESSFUL" is the target of this model since the model aims to predict the success of venture. (0 represents failure, and 1 represents success.) <br><br>
@@ -22,7 +22,7 @@ This analysis aims to create and train a deep-learning model that can help Alpha
 
 ### Compiling, Training, and Evaluating the Model
 #### AlphabetSoupChairy
-![Model Summary1](https://github.com/henrychan990805/deep-learning-challenge/blob/c138612c6bbfd55211a9fdf9c1153e73481718fe/ScreenShots/Summary/AlphabetSoupChairy_summary.png)
+![Model Summary1](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Summary/AlphabetSoupChairy_summary.png)
 * Number of Hidden Layers: 2
   * First Layer
     * Number of Neurons: 8
@@ -35,11 +35,11 @@ This analysis aims to create and train a deep-learning model that can help Alpha
     * Activation Function: Sigmoid
   <br><br>
 * Preformance: <br>
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/1ec65a342f1b3f047f048a48bded5e9017b2f041/ScreenShots/Evaluation/AlphabetSoupChairy_evaluation.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Evaluation/AlphabetSoupChairy_evaluation.png)
 * The model does not achieve the model performance. For the optimization, More nodes are added in each hidden layers, and the number of epochs are also increase from 100 to 200.
 <br><br>
 #### AlphabetSoupChairy_Optimization(1)
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Summary/AlphabetSoupChairy_Optimization(1)_summary.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Summary/AlphabetSoupChairy_Optimization(1)_summary.png)
 * Number of Hidden Layers: 2
   * First Layer
     * Number of Neurons: 40
@@ -52,11 +52,11 @@ This analysis aims to create and train a deep-learning model that can help Alpha
     * Activation Function: Sigmoid
 <br><br>
 * Preformance: <br>
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(1)_evaluation.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(1)_evaluation.png)
 * The model does not achieve the model performance. For the optimization, one more hidden layers are added.
 <br><br>
 #### AlphabetSoupChairy_Optimization(2)
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Summary/AlphabetSoupChairy_Optimization(2)_summary.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Summary/AlphabetSoupChairy_Optimization(2)_summary.png)
 * Number of Hidden Layers: 3
   * First Layer
     * Number of Neurons: 8
@@ -72,11 +72,11 @@ This analysis aims to create and train a deep-learning model that can help Alpha
     * Activation Function: Sigmoid
 <br><br>
 * Preformance: <br>
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(2)_evaluation.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(2)_evaluation.png)
 * The model does not achieve the model performance. For the optimization, two more hidden layers are added. The number of neurons are also added in each layer. Changed activation function to relu6.
 <br><br>
 #### AlphabetSoupChairy_Optimization(3)
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Summary/AlphabetSoupChairy_Optimization(3)_summary.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Summary/AlphabetSoupChairy_Optimization(3)_summary.png)
 * Number of Hidden Layers: 5
   * First Layer
     * Number of Neurons: 6
@@ -98,11 +98,11 @@ This analysis aims to create and train a deep-learning model that can help Alpha
     * Activation Function: Sigmoid
 <br><br>
 * Preformance: <br>
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(3)_evaluation.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(1)_evaluation.png)
 * The model does not achieve the model performance. For the optimization, some features ("STATUS", "APPLICATION_TYPE") are dropped. Acctivation Function changed to leaky relu. Added more nodes to hidden layers.
 <br><br>
 #### AlphabetSoupChairy_Optimization(4)
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Summary/AlphabetSoupChairy_Optimization(4)_summary.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Summary/AlphabetSoupChairy_Optimization(4)_summary.png)
 * Number of Hidden Layers: 5
   * First Layer
     * Number of Neurons: 80
@@ -124,11 +124,11 @@ This analysis aims to create and train a deep-learning model that can help Alpha
     * Activation Function: Sigmoid
 <br><br>
 * Preformance: <br>
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(4)_evaluation.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(4)_evaluation.png)
 * The model does not achieve the model performance. For the optimization, two more hidden layers are added. The number of neurons are also added in each layer. Epochs increase from 100 to 300. Activation function are changed to leaky_relu rather than relu.
 <br><br>
 #### AlphabetSoupChairy_Optimization(5)
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Summary/AlphabetSoupChairy_Optimization(5)_summary.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Summary/AlphabetSoupChairy_Optimization(5)_summary.png)
 * Number of Hidden Layers: 7
   * First Layer
     * Number of Neurons: 53
@@ -156,11 +156,11 @@ This analysis aims to create and train a deep-learning model that can help Alpha
     * Activation Function: Sigmoid
 <br><br>
 * Preformance: <br>
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(5)_evaluation.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(5)_evaluation.png)
 * The model does not achieve the model performance. For the optimization, model structure is changed.
 <br><br>
 #### AlphabetSoupChairy_Optimization(6)
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Summary/AlphabetSoupChairy_Optimization(6)_summary.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Summary/AlphabetSoupChairy_Optimization(6)_summary.png)
 * Number of Hidden Layers: 7
   * First Layer
     * Number of Neurons: 10
@@ -188,7 +188,7 @@ This analysis aims to create and train a deep-learning model that can help Alpha
     * Activation Function: Sigmoid
 <br><br>
 * Preformance: <br>
-![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/bf73acd466b205ab979b61475f872a0600d2b27c/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(6)_evaluation.png)
+![Model Summary](https://github.com/henrychan990805/deep-learning-challenge/blob/a5c7c16ed2dbaf14165b0e261ec73208ccb2c7d6/ScreenShots/Evaluation/AlphabetSoupChairy_Optimization(6)_evaluation.png)
 * The model does not achieve the model performance.
 <br><br>
 ## Summary
